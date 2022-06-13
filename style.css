@@ -1,0 +1,95 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: black;
+
+  font-size: 1.6rem;
+  color: white;
+  font-family: sans-serif;
+
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+#container {
+  text-align: center;
+
+  width: min(80%, 400px);
+}
+
+h1 {
+  margin-block: 4rem 1rem;
+}
+
+p {
+  margin-bottom: 4rem;
+  opacity: 0.7;
+}
+
+input,
+button {
+  display: block;
+  width: 100%;
+
+  padding: 2rem;
+
+  font-size: 2rem;
+
+  border: none;
+  border-radius: 0.4rem;
+}
+
+input {
+  margin-bottom: 2rem;
+}
+
+button {
+  cursor: pointer;
+  background-color: blueviolet;
+  color: white;
+
+  transition: filter 200ms;
+}
+
+button:hover {
+  filter: brightness(1.1);
+}
+
+button:disabled {
+  opacity: 0.6;
+}
+
+button:disabled:hover {
+  filter: none;
+  cursor: not-allowed;
+}
+
+#answer {
+  margin-top: 3rem;
+  transition: opacity 1s;
+}
+
+#answer div {
+  font-size: 1.6rem;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}
