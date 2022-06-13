@@ -7,6 +7,13 @@ const btnElement = document.querySelector("button");
 // DISABLE BUTTON ON LOAD
 window.onload = () => changingButtonState();
 
+// ENTER BUTTON ON KEYBOARD TRIGGER BUTTON TO GENERATE ANSWER
+inputElement.addEventListener("keypress", (event) => {
+  if (event.key === "Enter") {
+    btnElement.click();
+  }
+});
+
 // CHECK IF INPUT VALUE TO TOGGLE BUTTON STATE
 function changingButtonState() {
   if (inputElement.value.length == 0) {
