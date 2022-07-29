@@ -16,6 +16,8 @@ A simple app that answers yes or no.
 
 This project was developed for educational purposes during the <strong>Maratona Explorer</strong> event powered by [Rocketseat](https://www.rocketseat.com.br/).
 
+- [Take a look on my project](https://gahcalistro.github.io/MaratonaExplorer/)
+
 ## <img src="https://cdn-icons-png.flaticon.com/512/922/922690.png" height="25px" width="25px"/> License
 
 This project is [MIT licensed](LICENSE).
